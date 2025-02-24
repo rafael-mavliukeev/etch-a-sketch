@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    min-width: 300px;
+    min-height: 300px;
+    gap: 0;
+    justify-content: left;
+    align-content: start;
+}
+
+.square {
+
+    padding: 0;
+    border: 1px;
+    border-style: dotted;
+ 
+}
